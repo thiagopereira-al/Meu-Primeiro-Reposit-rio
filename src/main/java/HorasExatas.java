@@ -13,6 +13,7 @@ public class HorasExatas {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss zzzz", IdiomaSistema);
         System.out.println("Hora atual: " + agora.format(formato));
         System.out.println("Hora de codar");
+        System.out.println("");
     }
     
 }
